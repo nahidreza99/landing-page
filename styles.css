@@ -24,6 +24,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
+    scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -55,10 +57,8 @@ header{
     justify-content: space-between;
     background-color: #1e2738;
     padding: 15px 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: sticky;
+    top: 0px;
     z-index: 100;
 }
 
@@ -76,6 +76,10 @@ a{
     color: #e5e7eb;
     font-size: 18px;
     margin-left: 20px;
+}
+
+#hero{
+    scroll-margin-top: 66px;
 }
 
 .hero{
@@ -101,6 +105,10 @@ a{
 .hero p{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+#information{
+    scroll-margin-top: 66px;
 }
 
 .information{
@@ -134,6 +142,10 @@ a{
     width: 165px;
     border: 3px solid #3882f6;
     border-radius: 5px;
+}
+
+#quote{
+    scroll-margin-top: 66px;
 }
 
 .quote{
