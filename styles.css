@@ -88,6 +88,7 @@ a{
 .img-wrapper{
     width: 740px;
     height: 220px;
+    justify-content: center;
     background-color: darkgray;
 }
 
