@@ -47,6 +47,11 @@ header{
     justify-content: space-between;
     background-color: #1e2738;
     padding: 15px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 header>a{
@@ -65,8 +70,8 @@ a{
     margin-left: 20px;
 }
 
-.section-one{
-    height: calc(100vh - 200px);
+.hero{
+    height: 520px;
     background-color: #1e2738;
     padding: 15px 200px;
     gap: 50px;
@@ -81,10 +86,43 @@ a{
 .hero h1{
     color: #f9faf8;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .hero p{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.information{
+    padding: 80px 200px;
+    justify-content: center;
+    gap: 35px;
+}
+
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information>div{
+    gap: 50px;
+}
+
+.thumbnails{
+    width: 160px;
+}
+
+.thumbnails>p{
+    font-size: 18px;
+    text-align: center;
+    color: #5d6169;
+}
+
+.list-object{
+    height: 160px;
+    width: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
 }
