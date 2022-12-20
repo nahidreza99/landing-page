@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -29,6 +29,10 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .flex-row{
@@ -125,4 +129,22 @@ a{
     width: 160px;
     border: 3px solid #3882f6;
     border-radius: 5px;
+}
+
+.quote{
+    padding: 100px calc(50vw - 395px);
+    background-color: #e5e7eb;
+}
+
+.quote>p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote>b{
+    align-self: flex-end;
+    text-align: right;
+    font-weight: bolder;
 }
