@@ -184,3 +184,11 @@ a{
     background-color: #3882f6;
     border-radius: 5px;
 }
+
+footer{
+    height: 100px;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    background-color: #1e2738;
+}
